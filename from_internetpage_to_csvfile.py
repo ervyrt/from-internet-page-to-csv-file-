@@ -23,4 +23,4 @@ for baslik, rating in zip(titles,ranking):
 d={"Film İsmi":title, "Rating":rating}
 data=pd.DataFrame(d)
 print(data)
-data.to_csv("imbd.csv")
+#data.to_csv("imbd.csv")
